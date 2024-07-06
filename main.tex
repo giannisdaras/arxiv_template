@@ -1,0 +1,53 @@
+\documentclass{article}
+% \usepackage{refcheck}
+\usepackage[nonatbib,preprint]{arxiv}
+\usepackage[utf8]{inputenc} %
+\usepackage[T1]{fontenc}    %
+\usepackage[colorlinks,citecolor=blue]{hyperref}       %
+\usepackage{url}            %
+\usepackage{booktabs}       %
+\usepackage{amsfonts}       %
+\usepackage{nicefrac}       %
+\usepackage{microtype}      %
+\usepackage{xcolor}         %
+\usepackage{subcaption}
+\usepackage{multirow} %
+\usepackage{caption} %
+\usepackage{hhline} %
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{arydshln}
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0.pt,parsep=0pt,partopsep=0pt}
+\input{math_commands}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+\title{Notes}
+
+\NewDocumentCommand\emojiturtle{}{
+\raisebox{0.0\height}{\includegraphics[scale=2]{figs/emojis/1F422.pdf}}
+}
+
+\usepackage[style=numeric, maxbibnames=15, maxcitenames=3, natbib=true,maxalphanames=10, backend=biber, sorting=nty, backref=true]{biblatex}
+\addbibresource{references.bib}
+\DefineBibliographyStrings{english}{%
+  backrefpage = {page},%
+  backrefpages = {pages},%
+}
+
+
+\title{Notes}
+\author{}
+% \date{May 2023}
+
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}
